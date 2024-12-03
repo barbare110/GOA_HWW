@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color:#00bfff; /* Light blueee */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #000000;
+    padding: 10px ;
+    text-align: center;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: #00bfff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+#favorite-videos {
+    padding: 20px;
+    text-align: center;
+}
+
+#favorite-videos h1 {
+    color: #00bfff;
+}
+
+.video {
+    margin-top: 20px;
+}
