@@ -1,13 +1,13 @@
-* {
-    margin-top: 0;
-    padding-top: 0;
-    box-sizing: content-box;
+*{
+  margin-top: 0;
+  padding-top: 0;
+  box-sizing: content-box;
 }
 
 body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: black ;
-    color :(srgb #00ffff rgb(0, 229, 255) blue);
+    color :(srgb#4be927c0 rgba(117, 199, 208, 0.537) blue);
     padding: 20px;
 }
 
@@ -17,7 +17,7 @@ header{
 }
 
 h1,h2,p{
-    color: #00ffff;
+    color: #9ded8b
 }
 
 nav ul{
@@ -47,6 +47,10 @@ button {
     border-radius: 80px;
     cursor: pointer;
     font-size: 25px;
+    transition: all 2s ease-in-out;
+    box-shadow: 0 0 20px rgba(9, 239, 235, 0.5);
+
+
 }
 button:hover{ 
     background: linear-gradient(to right, #00ffff, #2fff00);
