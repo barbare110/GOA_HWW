@@ -35,6 +35,7 @@ nav ul li {
 nav ul li a {
     color: pink;
     text-decoration: none;
+    animation-fill-mode: backwards;
 }
 
 footer {
