@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: linear-gradient(to right, #00ffffb7, #4be927c0 );
+    color: rgb(0, 0, 0)
+}
+
+h1 {
+    margin: 0;
+}
+
+article, aside, section {
+    background-color: white;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 2000px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2, h3 {
+    color: #1d1d1f;
+}
+
+img {
+    border-radius: 8px;
+    margin: 20px 0;
+}
+
+footer {
+    text-align: right;
+    font-size: 0.9em;
+    color: #6a8780;
+}
