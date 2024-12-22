@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: rgb(249, 132, 251);
+    color: white;
+}
+
+h1,h2,p {
+    color: rgb(241, 110, 250);
+}
+
+.food {
+    display: inline-block;
+    margin: 20px;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid #f65bb8;
+    width: 200px;
+    color: rgb(222, 117, 194);
+}
+
+.food img {
+    width: 100%;
+    height: auto;
+}

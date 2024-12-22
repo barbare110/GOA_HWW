@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    color: #e171e2;
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1,h2 {
+    color: #e98afa;
+}
+
+.animal {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+img {
+    align-content: center;
+    align-items: center;
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}

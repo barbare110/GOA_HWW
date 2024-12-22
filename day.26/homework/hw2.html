@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        body {
+            background-color: #fbe4e6;
+            font-family: 'Arial', sans-serif;
+            color: #f67b8f;
+        }
+        h1 {
+            text-align: center;
+            color: #ff5e7d;
+            font-size: 32px;
+            margin-top: 40px;
+            font-weight: normal;
+        }
+        .table {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            margin: 0 auto;
+            width: 80%;
+            background-color: #fbc8d4;
+            border-radius: 12px;
+            padding: 10px;
+        }
+        .header {
+            background-color: #ffb3c1;
+            color: #fff;
+            padding: 10px;
+            text-transform: uppercase;
+            text-align: center;
+            border-radius: 6px;
+        }
+        .cell {
+            background-color: #ffd9e6;
+            padding: 12px;
+            text-align: center;
+            font-size: 16px;
+            border: 1px solid #ff99b3;
+            border-radius: 6px;
+        }
+        .cell:nth-child(odd) {
+            background-color: #fbe0e6;
+        }
+        .cell:nth-child(even) {
+            background-color: #ffe6f2;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Team Infooo:))))</h1>
+    <div class="table">
+
+        <div class="header">Sr. No</div>
+        <div class="header">Roll No</div>
+        <div class="header">Name</div>
+        <div class="header">Team</div>
+
+        <div class="cell">1</div>
+        <div class="cell">1001</div>
+        <div class="cell">Nick</div>
+        <div class="cell">Red</div>
+
+        <div class="cell">2</div>
+        <div class="cell">1002</div>
+        <div class="cell">Lizzy</div>
+        <div class="cell">Blue</div>
+
+        <div class="cell">3</div>
+        <div class="cell">1003</div>
+        <div class="cell">George</div>
+        <div class="cell">Green</div>
+    </div>
+</body>
+</html>
