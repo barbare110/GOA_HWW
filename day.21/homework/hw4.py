@@ -1,0 +1,1 @@
+# Function — A function is a block of code designed to perform a specific task and can be reused multiple times in a program. Functions help avoid repetitive code and improve code organization.

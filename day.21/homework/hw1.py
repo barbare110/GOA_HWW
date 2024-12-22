@@ -1,0 +1,2 @@
+# Indexing — This is a method used to access an element at a specific position in a list or string. Indexing retrieves a single element.
+# Slicing — This is a method that allows you to extract a sublist or substring by specifying a start, stop, and optional step. It retrieves a range of elements rather than just one.
