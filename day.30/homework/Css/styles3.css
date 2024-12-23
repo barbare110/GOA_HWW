@@ -1,0 +1,47 @@
+.btn-style-1 {
+    background-color: #8113a9;
+    color: white;
+    border-radius: 5px;
+       
+}
+.btn{
+    padding: 10px 20px;
+    font-size: 16px;
+    border: #6a9cda;
+    cursor: pointer;
+}
+
+.btn-style-1:hover {
+    background-color: #d90267;
+}
+
+.btn-style-2 {
+    background-color: #f29beb;
+    color: white;
+    border-radius: 50px;
+}
+
+.btn-style-2:hover {
+    background-color: #de08be;
+}
+
+.btn-style-3 {
+    background-color: #9253da;
+    color: white;
+    font-weight: bold;
+}
+
+.btn-style-3:hover {
+    background-color: #f879f6;
+}
+.btn-style-4{ 
+    background-color: #e940ee;
+    color: #d90267;
+    border: #f879f6;
+    border-radius: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.btn-style-4:hover{
+    background-color: aqua;
+}
